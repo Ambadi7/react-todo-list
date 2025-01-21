@@ -16,7 +16,7 @@ const Editform = ({item,updateTask}) => {
               <div className="flex w-full justify-between space-y-2 ">
                 <h2 className="text-2xl font-semibold tracking-wide bg-black text-white rounded-md p-4">{item.id }</h2>
                 <div className='flex justify-center w-full'>
-                  <input className='text-xl ' type="text" value={value} onChange={(e)=>{setValue(e.target.value)}} />
+                  <input className='text-xl mr-2' type="text" value={value} onChange={(e)=>{setValue(e.target.value)}} />
                 </div>
               </div>
               <div className='flex gap-3 mt-10 items-center h-full'>

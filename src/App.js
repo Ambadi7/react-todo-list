@@ -77,7 +77,7 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col items-center gap-4  font-mono bg-slate-900 text-white  w-full md:min-h-screen ">
+    <div className="flex flex-col items-center gap-4  font-mono bg-slate-900 text-white h-full w-full md:min-h-screen ">
       <div className="text-2xl  pt-12">
         <h1>{date.toLocaleDateString()}</h1>
         <h1>{date.toLocaleTimeString()}</h1>
