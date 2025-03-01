@@ -10,9 +10,12 @@
 ## Technologies Used
 ### **React**
 ### **Tailwind CSS**
-### **In Big Screen**
+### **Material Ui for Adding icons**
+[Live Demo](https://a-react-todolist.netlify.app/)
 
+
+### **In Big Screen**
 
 ![todolist](./ss1.png)
 ### In Small Screen
-<img src="./ss2.png" alt="Alt Text" width="300" >
+<img src="ss2.png" width=200px>

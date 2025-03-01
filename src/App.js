@@ -77,19 +77,19 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col items-center gap-4  font-mono bg-slate-900 text-white h-full w-full md:min-h-screen ">
+    <div className="flex flex-col items-center gap-4  font-roboto bg-slate-900 text-white w-full min-h-screen ">
       <div className="text-2xl  pt-12">
-        <h1>{date.toLocaleDateString()}</h1>
-        <h1>{date.toLocaleTimeString()}</h1>
+        <h1>{date.toLocaleDateString}</h1>
+        <h1>{date.toLocaleTimeString}</h1>
       </div>
-      <div className="flex justify-center">
-        <h1 className="text-7xl">Todo-List</h1>
+      <div className="flex justify-center px-2">
+        <h1 className="font-poppins text-sm  md:text-3xl">Conquer your goals by completing tasks, one at a time!</h1>
       </div>
       
         <form action="">
           <div className="flex justify-center  text-black bg-white w-80 md:w-96 h-12">
-            <input className="text-xl w-64 ml-4 bg-transparent" value={newTask} type="text"  onChange={(e)=>{setNewTask(e.target.value)}} placeholder="Enter the task"/>
-            <button className="pl-4 mr-4" onClick={addTask}>Add Task</button>
+            <input className="text-xl font-mono w-64 ml-4 outline-none bg-transparent" value={newTask} type="text"  onChange={(e)=>{setNewTask(e.target.value)}} placeholder="Enter the task"/>
+            <button className="pl-4 font-bold mr-4" onClick={addTask}>Add Task</button>
           </div>
         </form>
         <div className="flex flex-wrap px-24 justify-center gap-4 mt-6 w-4/6 ">
